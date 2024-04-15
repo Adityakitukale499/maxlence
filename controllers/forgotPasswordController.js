@@ -28,8 +28,8 @@ const forgotPassword = async (req, res) => {
         port: 465,
         secure: true,
         auth: {
-            user: process.env.GMAIL_USERNAME,
-            pass: process.env.GMAIL_PASSWORD
+            user: 'adityakitukale4599@gmail.com',
+            pass: 'Aditya@4599'
         }
     });
 
