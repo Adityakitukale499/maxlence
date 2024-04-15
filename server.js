@@ -18,7 +18,7 @@ app.use(express.json())
 app.use(cors())
 
 //db config
-mongoose.connect(process.env.MONGO_URI, {
+mongoose.connect('mongodb+srv://adityakitukale4599:OdTzJd4qE7aL9GiB@employees.lm5cyju.mongodb.net/?retryWrites=true&w=majority&appName=employees', {
     useNewUrlParser: true,
 }, (err) => {
     if (err) {
