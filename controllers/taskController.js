@@ -7,8 +7,8 @@ const sendMail = (email, subject, title, description) => {
     var transporter = createTransport({
         service: 'gmail',
         auth: {
-            user: process.env.GMAIL_USERNAME,
-            pass: process.env.GMAIL_PASSWORD
+            user: 'adityakitukale4599@gmail.com',
+            pass: 'Aditya@4599'
         }
     });
 
